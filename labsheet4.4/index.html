@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/validation.js" type="text/javascript"></script>
+
+
+<title>Insert title here</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<h2>Register form</h2>
+
+
+		<div class="form-group">
+			<label for="email">User Name:</label> <input type="username"
+				class="form-control" id="username" placeholder="Enter User nanme"
+				name="username">
+			<p>username can contain any letter or Numbers without spaces</p>
+		</div>
+
+
+		<div class="form-group">
+			<label for="email">Email:</label> <input type="email"
+				class="form-control" id="email" placeholder="Enter email"
+				name="email">
+			<p>Pleace provide your E-mail</p>
+		</div>
+
+
+		<div class="form-group">
+			<label for="email">NIC:</label> <input type="nic"
+				class="form-control" id="nic" placeholder="Enter NIC" name="nic">
+			<p>Pleace enter your NIC number</p>
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="email">mobile:</label> <input type="mobile"
+				class="form-control" id="mobile" placeholder="Enter Mobile"
+				name="mobile">
+			<p>Pleace provide your mobile number</p>
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="pwd">Password:</label> <input type="password"
+				class="form-control" id="password" placeholder="Enter password"
+				name="pwd">
+			<p>Password should be at least 4 charactor</p>
+		</div>
+
+		<div class="form-group">
+			<label for="pwd">Password:</label> <input type="password"
+				class="form-control" id="password_confirm"
+				placeholder="Enter conferm password" name="password_confirm">
+			<p>Pleace conform password</p>
+		</div>
+
+		<div class="checkbox">
+			<label><input type="checkbox" name="remember">
+				Remember me</label>
+		</div>
+		<button type="Register" class="btn btn-default"
+			onclick="validateForm()">Submit</button>
+		</form>
+	</div>
+	<hr>
+</body>
+</html>
